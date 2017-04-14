@@ -1,0 +1,10 @@
+javamelody.url=https://<server running javamelody instance>
+
+# Basic authentication credentials if necessary
+javamelody.basicauth.username=
+javamelody.basicauth.password=
+
+javamelody.collector.server=false
+
+# Comma seperated list of applications (<application1>,<application2>)
+javamelody.collector.applications=
