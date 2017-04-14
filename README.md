@@ -17,7 +17,7 @@ Before doing this you have to create your own `javamelody.properties` file in `s
 
 	[ERROR] Failed to execute goal org.apache.maven.plugins:maven-enforcer-plugin:1.4.1:enforce (Custom javamelody.properties was created) on 	project javamelody-prometheus-exporter: Some Enforcer rules have failed. Look above for specific messages explaining why the rule failed. 	-> [Help 1]
 
-Afterwards just deploy the war file on an application server of your choice. (Tested with Tomcat 7 & 8, minimun Java 6)
+Afterwards just deploy the war file on an application server of your choice. (Tested with Tomcat 7 & 8, minimum Java 6)
 
 ### Example javamelody.properties
 
