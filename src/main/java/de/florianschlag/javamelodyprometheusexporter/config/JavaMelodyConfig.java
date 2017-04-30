@@ -10,8 +10,6 @@ public class JavaMelodyConfig {
 	
 	private static final Logger logger = Logger.getLogger(JavaMelodyConfig.class);
 	
-	public static final String NAMESPACE = "javamelody";
-	
 	private static final String PROPERTY_FILENAME = "javamelody.properties";
 	private static final String PROPERTY_URL = "javamelody.url";
 	private static final String PROPERTY_BASIC_AUTH_USERNAME = "javamelody.basicauth.username";

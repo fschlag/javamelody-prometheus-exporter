@@ -4,7 +4,7 @@
 	<groupId>de.florianschlag</groupId>
 	<artifactId>javamelody-prometheus-exporter</artifactId>
 	<packaging>war</packaging>
-	<version>1.0</version>
+	<version>1.1</version>
 	<name>javamelody-prometheus-exporter Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
