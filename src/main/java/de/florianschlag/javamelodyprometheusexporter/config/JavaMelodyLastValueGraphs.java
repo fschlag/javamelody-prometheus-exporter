@@ -30,7 +30,6 @@ public enum JavaMelodyLastValueGraphs {
 	HTTP_SESSIONS_MEAN_AGE("httpSessionsMeanAge"),
 	SQL_HITS_RATE("sqlHitsRate"),
 	SQL_MEAN_TIMES("sqlMeanTimes"),
-	SQL_ACTIVE_CONNECTIONS("activeConnections"),
 	SQL_SYSTEM_ERRORS("sqlSystemErrors"),
 	OPEN_FILES("fileDescriptors");
 
