@@ -27,7 +27,13 @@ public enum JavaMelodyLastValueGraphs {
 	USED_NON_HEAP_MEMORY("usedNonHeapMemory"),
 	USED_PHYSICAL_MEMORY_SIZE("usedPhysicalMemorySize"),
 	USED_SWAP_SPACE_SIZE("usedSwapSpaceSize"),
-	HTTP_SESSIONS_MEAN_AGE("httpSessionsMeanAge");
+	HTTP_SESSIONS_MEAN_AGE("httpSessionsMeanAge"),
+	SQL_HITS_RATE("sqlHitsRate"),
+	SQL_MEAN_TIMES("sqlMeanTimes"),
+	SQL_USED_CONNECTIONS("usedConnections"),
+	SQL_ACTIVE_CONNECTIONS("activeConnections"),
+	SQL_SYSTEM_ERRORS("sqlSystemErrors"),
+	OPEN_FILES("fileDescriptors");
 
 	String parameterName;
 
