@@ -1,3 +1,6 @@
+## 1.3 / 2017-10-24
+* Fix negative values comming from JavaMelody. Sometimes JavaMelody returns negative values for some metrics. We don't want them in our DB.
+
 ## 1.2 / 2017-05-17
 * Added various SQL related metrics
 * Added open file descriptor metric
