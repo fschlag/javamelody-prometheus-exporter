@@ -64,7 +64,7 @@ public class JavaMelodyScraper {
 		for (JavaMelodyLastValueGraphs graph : result.keySet()) {
 			String token = rawResultTokens.nextToken();
 			double value = Double.parseDouble(token);
-			result.put(graph, value);
+			result.put(graph, value > 0 ? value : 0);
 		}
 		return result;
 	}
