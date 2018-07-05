@@ -8,7 +8,7 @@ Instead of using Go or Python this exporter uses Java because you probably alrea
 
 ## How it works
 
-This exporter uses the JavaMelody [lastValue external API](https://github.com/javamelody/javamelody/wiki/ExternalAPI#png-and-lastvalue) to pull data and transforms it to Prometheus gauges. Exporting is done via a simple Java servlet. No rocket since.
+This exporter uses the JavaMelody [lastValue external API](https://github.com/javamelody/javamelody/wiki/ExternalAPI#png-and-lastvalue) to pull data and transforms it to Prometheus gauges. Exporting is done via a simple Java servlet. No rocket science.
 
 ## How to use it
 The build is maven based so a `mvn package` will create the war file in the `target` folder.
