@@ -32,3 +32,6 @@ Afterwards just deploy the war file on an application server of your choice. (Te
 	# Comma seperated list of applications (<application1>,<application2>)
 	javamelody.collector.applications=
 	
+## Alternative
+
+As an alternative to this exporter, JavaMelody also includes itself an [integration for Prometheus](https://github.com/javamelody/javamelody/wiki/UserGuideAdvanced#exposing-metrics-to-prometheus).
