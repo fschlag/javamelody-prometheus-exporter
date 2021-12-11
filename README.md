@@ -1,3 +1,10 @@
+# Archived since 12/2021 (NO MORE UPDATES)
+
+I recommend using the official prometheus exporter provided by the JavaMelody project itself.
+Please follow the official guide at https://github.com/javamelody/javamelody/wiki/UserGuideAdvanced#exposing-metrics-to-prometheus
+
+---
+
 # JavaMelody Prometheus Exporter
 
 This is a prometheus exporter (<https://prometheus.io/docs/instrumenting/exporters>) for the JavaEE monitoring tool [JavaMelody](https://github.com/javamelody/javamelody/wiki). It was created to get a deeper insight of the data JavaMelody collects, especially over time without the need to change existing application code to full prometheus monitoring.
